@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product & Services</title>
+  <meta charset="utf-8">
+  <meta name="view-port" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    body, html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+	    width: 100%;
+    }
+
+    /*Products*/
+	.products{
+	    display: flex;
+	    justify-content: center;
+	}
+    .w3-products-container>.products>div>img{
+	    width: 100%;
+	}
+	.w3-products-container>.products>div{
+		width: 20%;
+		position: relative;
+		height: 350px;;
+	}
+    
+	@media only screen and (max-device-width: 630px) {
+	   .products{
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+			width: 100%;
+			padding-right: 25px;
+	    }
+		.w3-products-container>.products>div {
+		    width: 100%;
+	    }
+
+    }
+  </style>
+</head>
+<body>
+<!--Products-->
+<div class="w3-products-container">
+  <div class="w3-center">
+    <h4>You can order and grab your self some fresh, raw grade A meat or rather have us grill your meat. Coocked beef trotters are also available.<br>
+   	You are more than <em>welcome to visit and eat at our place.</em></h4>
+  </div>
+  <center><h2>PRODUCTS</h2></center>
+ <div class="products">
+  <div class="product w3-card-2" style="background-color: #FFFFFF; margin: 15px;">
+	<img src="https://www.seriouseats.com/thmb/RiccTw6BAHWZOc_F7O2z--LiOZA=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__06__porterhouse2-602115d7110546f3a6a4650bab1a9d39.jpg">
+    <div class="w3-footer w3-center w3-border">
+	  <p>Product: Beef</p>
+	  <P>Price: R /kg</P>
+    </div>
+  </div>
+  
+  <div class="product w3-card-2" style="background-color: white; margin: 15px;">
+    <img src="imgs/pork-meat.jpg">
+    <div class="w3-footer w3-center w3-border">
+	  <p>Product: Pork</p>
+	  <P>Price: R /kg</P>
+    </div>
+  </div>
+  
+  <div class="product w3-card-2" style="background-color: #FFFFFF; margin: 15px;">
+    <img src="https://www.yebofresh.co.za/wp-content/uploads/2021/02/tasty-braai-wors-1000x1000_yebofresh-temp.jpg">
+    <div class="w3-footer w3-center w3-border">
+	  <p>Product: Wors</p>
+	  <P>Price: R /kg</P>
+    </div>
+  </div>
+  
+  <div class="product w3-card-2" style="background-color: #FFFFFF; margin: 15px;">
+    <img src="https://www.meattodoor.ae/uploads/Meat-O-Door%20Products/Beef/Beef-Trotters.jpg">
+    <div class="w3-footer w3-center w3-border">
+	  <p>Product: Beef Throtters</p>
+	  <P>Price: R /kg</P>
+    </div>
+  </div>
+ </div>
+</body>
+</html>
